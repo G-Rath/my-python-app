@@ -6,3 +6,6 @@ services:
 
     ports:
       - '8000:5000'
+
+    volumes:
+      - ./requirements.txt:/app/requirements.txt
